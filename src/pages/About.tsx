@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/PageHeader";
 import { CheckCircle2 } from "lucide-react";
-import founderImg from "@/assets/doctor-male.jpg";
+import founderImg from "@/assets/dr.raju.bhusnar.jpeg";
 import teamImg from "@/assets/about-team.jpg";
 
 const aims = [

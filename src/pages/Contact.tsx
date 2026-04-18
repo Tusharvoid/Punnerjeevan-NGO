@@ -29,7 +29,7 @@ const Contact = () => {
           <div className="lg:col-span-2 space-y-5">
             {[
               { icon: Phone, label: "Call / WhatsApp", value: "+91 90119 32151", href: "tel:9011932151" },
-              { icon: Mail, label: "Email", value: "info@punarjeevan.org", href: "mailto:info@punarjeevan.org" },
+              { icon: Mail, label: "Email", value: "rajubhusanar@gmail.com", href: "mailto:rajubhusanar@gmail.com" },
               { icon: MapPin, label: "Address", value: "Shop No. 4/11, Almita Apt-3, Naika Vaddo, Calangute, Bardez, Goa – 403516" },
               { icon: Clock, label: "Hours", value: "Mon – Sat · 9:00 AM – 7:00 PM" },
             ].map((c) => (

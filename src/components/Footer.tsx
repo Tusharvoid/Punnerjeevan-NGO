@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Heart, Phone, MapPin, Mail } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export const Footer = () => {
   return (
@@ -7,9 +8,11 @@ export const Footer = () => {
       <div className="container-narrow py-16 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2 space-y-4">
           <div className="flex items-center gap-2.5">
-            <div className="h-9 w-9 rounded-full bg-primary-foreground/15 grid place-items-center">
-              <Heart className="h-4.5 w-4.5" strokeWidth={2.4} />
-            </div>
+            <img
+              src={logo}
+              alt="Punarjeevan Ayurvedic Association logo"
+              className="h-11 w-11 rounded-full object-contain bg-white ring-1 ring-primary-foreground/30 shadow-soft"
+            />
             <div className="font-serif font-semibold text-lg">Punarjeevan Ayurvedic Association</div>
           </div>
           <p className="text-primary-foreground/75 text-sm leading-relaxed max-w-md">
@@ -37,7 +40,7 @@ export const Footer = () => {
           <ul className="space-y-3 text-sm text-primary-foreground/75">
             <li className="flex gap-2.5"><MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" /><span>Almita Apt-3, Naika Vaddo,<br/>Calangute, Bardez, Goa – 403516</span></li>
             <li className="flex gap-2.5"><Phone className="h-4 w-4 mt-0.5" /><a href="tel:9011932151" className="hover:text-primary-foreground">+91 90119 32151</a></li>
-            <li className="flex gap-2.5"><Mail className="h-4 w-4 mt-0.5" /><a href="mailto:info@punarjeevan.org" className="hover:text-primary-foreground">info@punarjeevan.org</a></li>
+            <li className="flex gap-2.5"><Mail className="h-4 w-4 mt-0.5" /><a href="mailto:rajubhusanar@gmail.com" className="hover:text-primary-foreground">rajubhusanar@gmail.com</a></li>
           </ul>
         </div>
       </div>

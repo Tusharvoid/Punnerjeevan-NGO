@@ -123,7 +123,7 @@ const GetInvolved = () => {
                 ))}
               </div>
               <p className="mt-6 text-xs text-primary-foreground/70">
-                For receipts and 80G certificates, share the transaction reference at info@punarjeevan.org
+                For receipts and 80G certificates, share the transaction reference at rajubhusanar@gmail.com
               </p>
             </div>
           </div>
